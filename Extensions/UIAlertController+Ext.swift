@@ -11,7 +11,6 @@ import UIKit
 
 public extension UIAlertController {
     
-    
     /// Show UIAlertController on separate UIWindow
     public func show() {
         let win = UIWindow(frame: UIScreen.main.bounds)
