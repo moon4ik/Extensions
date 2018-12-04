@@ -13,12 +13,12 @@ public extension UIAlertController {
     
     /// Show UIAlertController on separate UIWindow
     public func show() {
-        let win = UIWindow(frame: UIScreen.main.bounds)
-        let vc = UIViewController()
-        vc.view.backgroundColor = .clear
-        win.rootViewController = vc
-        win.windowLevel = UIWindow.Level.alert + 1
-        win.makeKeyAndVisible()
-        vc.present(self, animated: true, completion: nil)
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        let viewController = UIViewController()
+        viewController.view.backgroundColor = .clear
+        window.rootViewController = vc
+        window.windowLevel = UIWindow.Level.alert + 1
+        window.makeKeyAndVisible()
+        viewController.present(self, animated: true, completion: nil)
     }
 }
