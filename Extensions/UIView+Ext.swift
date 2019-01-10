@@ -1,16 +1,14 @@
 //
 //  UIView+Ext.swift
-//  Test
 //
-//  Created by Oleksii on 12/3/18.
-//  Copyright © 2018 Temabit. All rights reserved.
+//  Created by Oleksii Mykhailenko on 12/3/18.
+//  Copyright © 2018 Oleksii Mykhailenko. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
 extension UIView {
-    
     
     /// Corner radius on Storyboards
     @IBInspectable

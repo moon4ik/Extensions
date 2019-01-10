@@ -1,9 +1,8 @@
 //
 //  UIAlertController+Ext.swift
-//  Test
 //
-//  Created by Oleksii on 11/30/18.
-//  Copyright © 2018 Temabit. All rights reserved.
+//  Created by Oleksii Mykhailenko on 11/30/18.
+//  Copyright © 2018 Oleksii Mykhailenko. All rights reserved.
 //
 
 import Foundation
